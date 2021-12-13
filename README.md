@@ -21,17 +21,20 @@ If pip shows a version then you are good to skip Downloading pip
 
 otherwise continue
 
+
 Download Python Version 3 or Higher (Use Stable Releases)
 
 During install select to Add Python to PATH checkbox
 
 https://www.python.org/downloads/windows/
 
+
 Download git
 
 Just click through all the defaults
 
 https://git-scm.com/
+
 
 Download pip
 
