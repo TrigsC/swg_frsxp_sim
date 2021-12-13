@@ -468,7 +468,7 @@ if __name__=="__main__":
             logging.info('NEW BH FIGHT:')
             bh_fight(imp_jedi,reb_jedi,all_bh)
         else:
-            logging.info('NEW GROUP FIGH:')
+            logging.info('NEW GROUP FIGHT:')
             imp_jedi_trimmed, imp_normies_trimmed, reb_jedi_trimmed, reb_normies_trimmed, total_active_imp, total_active_reb = get_groups(
                 imp_jedi_num,imp_jedi,imp_normies_num,imp_normies,reb_jedi_num,reb_jedi,reb_normies_num,reb_normies)
 
