@@ -3,14 +3,10 @@
 Open Command Prompt
 ```Windows Key and cmd and Enter```
 
-Type
-
-```python --version```
-
-```git --version```
-
-```pip --version```
-
+Type<br />
+```python --version```<br />
+```git --version```<br />
+```pip --version```<br />
 Do not close Command Prompt yet
 
 If Python is over >= 3.0 you are good to skip Downloading Python 
@@ -21,33 +17,23 @@ If pip shows a version then you are good to skip Downloading pip
 
 otherwise continue
 
-
-Download Python Version 3 or Higher (Use Stable Releases)
-
-During install select to Add Python to PATH checkbox
-
+Download Python Version 3 or Higher (Use Stable Releases)<br />
+During install select to Add Python to PATH checkbox<br />
 https://www.python.org/downloads/windows/
 
-
-Download git
-
-Just click through all the defaults
-
+Download git<br />
+Just click through all the defaults<br />
 https://git-scm.com/
 
 
-Download pip
-
-In the Open Command Prompt 
-
+Download pip<br />
+In the Open Command Prompt <br />
 ```py -m pip install```
 
 ## At this point, if you have VSCode or editor you can go to Install section
 
-Go to the folder you want Sim installed to
-
-Ex(C:\Users\)
-
+Go to the folder you want Sim installed to<br />
+Ex(C:\Users\)<br />
 Right Click "Git Bash Here"
 
 ## Install
