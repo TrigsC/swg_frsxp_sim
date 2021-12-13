@@ -7,8 +7,15 @@ frsxp_audit.log (This is a log of every increase and decrease of xp to validate 
 
 At the top of swg_frsxp_sim.py you can edit ```frsExperienceValues``` and ```frsRanks``` for testing new values.
 
+# How does it work?
+Based on user input, it creates random data of Rebels, Imperials, and Bounty Hunters. It then grabs a random group from both factions and checks to see if they are willing to fight eachother based on how many came to the fight (get_battle_ratio can be updated as seen fit). If the fight is on, it then grabs another random group from the fighters and checks winrate (random number) of both groups and to see who won. It then grabs another even smaller group from the winners as if those are the characters that killed the other and 1 person from the losers. One more time it selects 1 person from the winners as the Death Blower. If the person that died was a Non-Jedi they are removed from the fighters list and repeats. If a Jedi dies it gives FRS XP based on frsExperienceValues and if FRSXP is split and decreases for the loser. It will continues running the fight over and over until one side disengages.
+
+Every 3rd "round" or battle, 2 Jedi are randomly selected to fight and it is based on win ratio. It's possible that both ratio's end in True and as if someone got away. Who ever wins gets FRSXP based on frsExperienceValues and decreases for the loser.
+
+Every 5th "round" or battle, a BH and Jedi are randomly selected to fight and it is based on win ratio. It's possible that both ratio's end in True and as if someone got away. If the Jedi wins they get FRSXP based on frsExperienceValues and decreases if they lose.
+
 # Requirements Instructions
-## Check if all things are intalled
+## Check if all things are installed
 Open Command Prompt
 ```Windows Key and cmd and Enter```
 
@@ -20,9 +27,9 @@ Do not close Command Prompt yet
 
 If Python is over >= 3.0 you are good to skip Downloading Python 
 
-If Git shows a version then you are good to skip Downloading Git
+If Git shows a version, then you are good to skip Downloading Git
 
-If pip shows a version then you are good to skip Downloading pip
+If pip shows a version, then you are good to skip Downloading pip
 
 otherwise continue
 
@@ -33,7 +40,6 @@ https://www.python.org/downloads/windows/
 Download git<br />
 Just click through all the defaults<br />
 https://git-scm.com/
-
 
 Download pip<br />
 In the Open Command Prompt <br />
