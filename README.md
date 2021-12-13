@@ -1,5 +1,14 @@
+# What is this?
+This is a simulation of FRSXP for Jedi in Star Wars Galaxies.
+
+2 files are outputted with data:<br />
+frsxp_data.csv (End Data)<br />
+frsxp_audit.log (This is a log of every increase and decrease of xp to validate data)
+
+At the top of swg_frsxp_sim.py you can edit ```frsExperienceValues``` and ```frsRanks``` for testing new values.
+
 # Requirements Instructions
-## Check if Python is intalled
+## Check if all things are intalled
 Open Command Prompt
 ```Windows Key and cmd and Enter```
 
